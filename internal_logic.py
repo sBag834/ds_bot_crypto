@@ -45,8 +45,8 @@ def main():
             with open(CURRENT_NUMBER_FILE, 'w') as f:
                 f.write(f"{number:.2f}")
 
-            print(f"Число: {number:.2f}")
-            time.sleep(0.01)
+            # print(f"Число: {number:.2f}")
+            time.sleep(1)
 
     except KeyboardInterrupt:
         print("Программа остановлена.")
